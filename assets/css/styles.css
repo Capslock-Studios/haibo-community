@@ -1,0 +1,98 @@
+body {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center; /* Centering text */
+    padding-top: 15px; /* Adjust as needed for your design */
+}
+
+.content {
+    max-width: 800px; /* Adjust this value to suit your design */
+    margin: 0 auto; /* Centers the content */
+    text-align: center; /* Ensures text is center-aligned */
+}
+
+
+h1 {
+    font-size: 72px; /* Double the size, adjust as needed */
+    margin-bottom: 20px; /* Adjust spacing between the h1 and the sub-header */
+}
+
+h3 {
+    font-size: 24px; /* Larger than before, but smaller than h1 */
+    margin-bottom: 50px; /* More space between the sub-header and the buttons */
+}
+
+.buttons {
+    margin: 20px 20px; /* Adjust if you need more space around buttons */
+}
+
+a.button {
+    font-size: 18px;
+	display: inline-block;
+    background-color: #555; /* Button background */
+    color: white; /* Button text color */
+    padding: 20px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline from links */
+    margin: 10px 20px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+}
+
+a.button:hover {
+    background-color: #777; /* Button hover effect */
+}
+
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0; /* Adjust the margin as needed */
+}
+
+iframe {
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for a bit of depth */
+    border-radius: 8px; /* Optional: rounds the corners of the video player */
+    margin: 10px 10px;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-container, .social-links {
+    margin: 10px; /* Adjust margin for better spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container img {
+    width: auto; /* Adjust width to auto for better flexibility */
+    max-width: 48px; /* Adjust max-width as necessary */
+    height: auto; /* Keep aspect ratio */
+}
+
+.social-links {
+    /* margin: 20px 20px; /* Adjust if you need more space around buttons */ */
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.social-button {
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 0 10px; /* Adjusted for inline display */
+    border-radius: 5px;
+}
+
+.social-button:hover {
+    background-color: #777;
+}

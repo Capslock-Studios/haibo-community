@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAIBO-COMMUNITY</title>
+    <link rel="stylesheet" href="assets/css/styles.css"> <!-- Link to the external CSS file -->
+	<link rel="icon" type="assets/image/png" sizes="32x32" href="assets/images/favicon-32x32.png"> <!-- Favicon link -->
+    <link rel="icon" type="assets/image/png" sizes="16x16" href="assets/images/favicon-16x16.png"> <!-- Favicon link for smaller size -->
+</head>
+<body>
+
+<div class="content">
+    <h1>HAIBO-COMMUNITY</h1>
+    <h3>Building safer, more transparent communities with more opportunities for all.</h3>
+    <p>
+        HAIBO-COMMUNITY is a web-based platform aimed at enhancing community safety and development by leveraging community databases to provide access to information about known criminal activities. It enables users to report cases, register their details, and save information about their belongings, all without the need for account creation. 
+    </p>
+    <p>
+        The platform identifies known community members using various identifiers to detect intruders, false identities, and negligent public servants. It also allows for anonymous reporting, automatic location and time capture, and offers full CRUD access for users to manage their reports and inventories, making it a comprehensive tool for maintaining and improving community security and awareness.
+        </p>
+    <p><br>Our tech is a work in progress. Follow along on our journey.</p>
+</div>
+
+
+<div class="buttons">
+    <a href="https://discord.com/invite/7RnN834RYg" class="button" target="_blank">Explore Haibo</a>
+    <a href="https://studio.infinity.ai/" class="button" target="_blank">Add your details</a>
+    <a href="https://studio.infinity.ai/clones" class="button" target="_blank">Report case</a>
+</div>
+
+<style>
+    .faq-container {
+        width: 60%;
+        background: #616161;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 800px; /* Adjust this value to suit your design */
+    margin: 0 auto; /* Centers the content */
+    text-align: center; /* Ensures text is center-aligned */
+    }
+
+    .faq-header {
+        background: #494949;
+        color: #fff;
+        padding: 16px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .faq {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .faq-title {
+        padding: 16px;
+        cursor: pointer;
+        background: #b4b4b4;
+        transition: background 0.3s ease;
+    }
+
+    .faq-title:hover {
+        background: #535353;
+    }
+
+    .faq-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        padding: 0 16px;
+        background: #838383;
+    }
+
+    .faq-content p {
+        margin: 16px 0;
+    }
+
+    .faq.active .faq-content {
+        max-height: 200px;
+    }
+</style>
+<div class="faq-container">
+    <div class="faq-header">Frequently Asked Questions</div>
+    <div class="faq">
+        <div class="faq-title">What is HAIBO-COMMUNITY?</div>
+        <div class="faq-content">
+            <p>HAIBO-COMMUNITY is a web-based platform designed to enhance community safety and development by providing access to information about known criminal activities and enabling users to report cases and register their belongings.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">How do I register my details on HAIBO-COMMUNITY?</div>
+        <div class="faq-content">
+            <p>To register, simply visit the registration page on the platform, fill in your personal details, and submit the form. No account creation is required.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">Can I report a case anonymously?</div>
+        <div class="faq-content">
+            <p>Yes, you can report cases anonymously. The system will automatically capture your device's location and time without requiring any personal information.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">What types of cases can I report?</div>
+        <div class="faq-content">
+            <p>You can report various types of cases, including theft, suspicious activities, and public safety hazards. The platform allows you to upload evidence and track the status of your reports.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">How do I register my belongings on the platform?</div>
+        <div class="faq-content">
+            <p>Navigate to the inventory section, enter the details of your belongings, including unique identifiers and serial numbers, and save the information for future reference.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">How are my reports and personal information protected?</div>
+        <div class="faq-content">
+            <p>We use advanced encryption methods to ensure your data is secure. Personal information is only accessible to authorized personnel.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">Can I update or delete my reports and registered belongings?</div>
+        <div class="faq-content">
+            <p>Yes, you have full CRUD (Create, Read, Update, Delete) access to your reports and registered belongings without needing to log in.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">What should I do if I encounter a problem on the platform?</div>
+        <div class="faq-content">
+            <p>Visit the help center for troubleshooting tips or contact our support team via phone, email, or live chat for assistance.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">Are there any costs associated with using HAIBO-COMMUNITY?</div>
+        <div class="faq-content">
+            <p>No, the platform is free to use for all community members.</p>
+        </div>
+    </div>
+    <div class="faq">
+        <div class="faq-title">How can I stay updated on new features and community alerts?</div>
+        <div class="faq-content">
+            <p>Follow our social media channels, subscribe to our newsletter, or check the platform regularly for updates and alerts.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.faq-title').forEach(item => {
+        item.addEventListener('click', () => {
+            const parent = item.parentElement;
+            parent.classList.toggle('active');
+        });
+    });
+</script>
+
+
+<div class="video-container">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/-Bx7wo6_-IM" title="Haibo_Community Product Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/ye7bjohh5sM" title="Enhancing Community Safety" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="footer-container">
+    <div class="svg-container">
+        <a href="https://www.ycombinator.com/launches/Ken-infinity-ai-type-a-script-get-a-movie-out" target="_blank"><img src="images/yc_square.svg" alt="Y Combinator"></a>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.youtube.com/channel/UCCOaGE3d1Lu0d4Z3sdYnn8A" class="social-button" target="_blank">YouTube</a>
+        <a href="https://x.com/Haibo_Community" class="social-button" target="_blank">Twitter</a>
+        <a href="https://www.tiktok.com/@haibo_community" class="social-button" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/profile.php?id=61561153654022" class="social-button" target="_blank">Facebook</a>
+    </div>
+</div>
+
+    
+
+
+</body></html>
